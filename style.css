@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+:root{
+    --font01:'Roboto Mono', 'monospace';
+    --font002:'Roboto Mono', 'monospace';
+    --color01:#3CEADF;
+    --color02:#E83300;
+    --color03:#E8DA00;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to top, var(--color01),var(--color02),var(--color03));
+    font-family: var(--font002);
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+.container-conteudo > p{
+    background-color: var(--color03);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+}
+.tudo{
+    background-color: var(--color02);
+    padding: 50px;
+    border-radius: 10px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.27);
+}
+.imagens{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.212);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.019);
+}
+footer{
+    background-color: white;
+    margin-top: 10px;
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 0, 0);;
+    text-decoration: underline;
+}
+footer > p{
+    text-align: center;
+    font-family: var(--font02);
+    font-weight: 600;
+}
